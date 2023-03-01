@@ -1,0 +1,32 @@
+@import '../../shared/styles/variables';
+
+.la-brand{
+   display: inline-flex;
+   width: 72px;
+   height: 40px;
+   padding: 5px;
+   border-radius: 5px;
+   border-color: $primary;
+   background-color: $primary;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.nav-link{
+   border: 2px solid transparent;
+   border-radius: 5px;
+}
+.route-active{
+   border: 2px solid $primary;
+   border-radius: 5px;
+}
+.basket{
+   display: inline-flex;
+   // flex-direction: column;
+   img{
+      height: 28px;
+      width: 28px;
+      margin-right: 10px;
+   }
+}
